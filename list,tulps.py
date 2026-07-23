@@ -47,6 +47,11 @@ print(cars)
 
 # Make a copy of the list
 new_cars = cars.copy()
+
+len(fruits)
+max(numbers)
+min(numbers)
+sum(numbers)
 print(new_cars)
 
 # Clear all items from the copied list
