@@ -57,3 +57,61 @@ print(new_cars)
 # Clear all items from the copied list
 new_cars.clear()
 print(new_cars)   # Output: []
+
+# Create a dictionary
+info = {
+    "name": "ali",
+    "class": "9th",
+    "city": "rawalpindi"
+}
+
+# Print the entire dictionary
+print(info)
+
+# Print the value of the "name" key
+print(info["name"])
+
+# Print the value of the "city" key
+print(info["city"])
+
+# Get the value of "class" using get() (safer than [])
+print(info.get("class"))
+
+# Update the value of "class"
+info["class"] = "10th"
+
+# Print the updated class
+print(info.get("class"))
+
+# Add a new key-value pair
+info["cars"] = "grande"
+
+# Print the updated dictionary
+print(info)
+
+# Remove the "name" key
+info.pop("name")
+
+# Print the dictionary after removing "name"
+print(info)
+
+# Print all keys
+print(info.keys())
+
+# Print all values
+print(info.values())
+
+# Print all key-value pairs
+print(info.items())
+
+# Update the value of the "city" key
+info.update({"city": "pindi"})
+
+# Print the updated dictionary
+print(info)
+
+# Remove the last inserted key-value pair
+info.popitem()
+
+# Print the final dictionary
+print(info)
